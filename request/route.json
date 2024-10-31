@@ -1,6 +1,6 @@
 {
     "GET": {
-        "/api/test/getapp": "application.json"
+        "/api/KycApplication/getApplicationById": "application.json"
     },
     "POST": {
         "/api/KycApplication/getApplicationById": "application.json"
