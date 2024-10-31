@@ -6,15 +6,21 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-// Middleware to disable CORS and allow specific headers
+// Middleware to handle CORS
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*"); // Allow all origins (or specify your frontend origin)
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
     res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS"); // Allow specific HTTP methods
+
+    // Handle preflight request
+    if (req.method === 'OPTIONS') {
+        return res.sendStatus(200); // Respond with 200 OK for OPTIONS requests
+    }
+    
     next();
 });
 
-// Middleware
+// Middleware to parse JSON requests
 app.use(bodyParser.json());
 
 // Load routes from route.json
@@ -57,17 +63,4 @@ const postStaticData = (filePath) => {
 };
 
 // Register GET and POST routes dynamically
-for (const [method, routesObject] of Object.entries(routes)) {
-    for (const [route, fileName] of Object.entries(routesObject)) {
-        if (method === 'GET') {
-            app.get(route, getStaticData(fileName));
-        } else if (method === 'POST') {
-            app.post(route, postStaticData(fileName));
-        }
-    }
-}
-
-// Start the server
-app.listen(port, () => {
-    console.log(`Mock API running at http://localhost:${port}`);
-});
+for (const [method, routesObject
