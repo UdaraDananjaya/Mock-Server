@@ -6,10 +6,11 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-// Middleware to disable CORS
+// Middleware to disable CORS and allow specific headers
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*"); // Allow all origins
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    res.header("Access-Control-Allow-Origin", "*"); // Allow all origins (or specify your frontend origin)
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS"); // Allow specific HTTP methods
     next();
 });
 
