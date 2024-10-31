@@ -6,6 +6,13 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
+// Middleware to disable CORS
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*"); // Allow all origins
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
 // Middleware
 app.use(bodyParser.json());
 
