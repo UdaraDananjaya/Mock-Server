@@ -63,4 +63,17 @@ const postStaticData = (filePath) => {
 };
 
 // Register GET and POST routes dynamically
-for (const [method, routesObject
+for (const [method, routesObject] of Object.entries(routes)) {
+    for (const [route, fileName] of Object.entries(routesObject)) {
+        if (method === 'GET') {
+            app.get(route, getStaticData(fileName));
+        } else if (method === 'POST') {
+            app.post(route, postStaticData(fileName));
+        }
+    }
+}
+
+// Start the server
+app.listen(port, () => {
+    console.log(`Mock API running at http://localhost:${port}`);
+});
