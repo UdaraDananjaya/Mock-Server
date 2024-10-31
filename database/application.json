@@ -1,4 +1,674 @@
-[
-    { "id": 1, "name": "Application One" },
-    { "id": 2, "name": "Application Two" }
-]
+{
+    "statusCode": 200,
+    "data": {
+        "kycApplication": {
+            "id": 1,
+            "calling_name": {
+                "customer_input": "Udara",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "citizenship": {
+                "customer_input": "Sri Lankan",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "residentship": {
+                "customer_input": "Sri Lanka",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "mobile_number": {
+                "customer_input": "\u002B94763424819",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "mobile_number_country_code": {
+                "customer_input": "LK \u002B94",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "mobile_number_without_country_code": {
+                "customer_input": "763424819",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "telephone_number": {
+                "customer_input": "",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "telephone_number_country_code": {
+                "customer_input": "IN \u002B91",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "telephone_number_without_country_code": {
+                "customer_input": "98522254102",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "email": {
+                "customer_input": "udarapaymedia@gmail.com",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "secondary_email": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "allow_location_access": true,
+            "allow_nic_verification_drp": true,
+            "identification_type": "NNIC",
+            "nic_eic_number": {
+                "customer_input": "200028900467",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "passport_number": {
+                "customer_input": "N1211221",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "nic_eic_issue_date": {
+                "customer_input": "1970-01-01T00:00:00",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": "0001-01-01T00:00:00"
+            },
+            "passport_issue_date": {
+                "customer_input": "1970-01-01T00:00:00",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": "0001-01-01T00:00:00"
+            },
+            "passport_expire_date": {
+                "customer_input": "1970-01-01T00:00:00",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": "0001-01-01T00:00:00"
+            },
+            "title": {
+                "customer_input": "Mr",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "full_name": {
+                "customer_input": "Udara Dananjaya Aththanayaka",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "nationality": {
+                "customer_input": "30",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "date_of_birth": {
+                "customer_input": "2000-10-15T00:00:00",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": "0001-01-01T00:00:00"
+            },
+            "gender": {
+                "customer_input": "Male",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "maritial_status": {
+                "customer_input": "Single",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "is_correspondence_address_differs_with_the_permanent_address": true,
+            "building_number": {
+                "customer_input": "No 108/7,",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "building_name": {
+                "customer_input": "Kaluwarippuwa West,",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "street": {
+                "customer_input": "Katana.",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "town": {
+                "customer_input": "",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "postal_code": {
+                "customer_input": "11534",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "district": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "country": {
+                "customer_input": "Sri Lanka",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_building_number": {
+                "customer_input": "No 100,",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_building_name": {
+                "customer_input": "New Dilhi Road,",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_street": {
+                "customer_input": "Kathmandu.",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_town": {
+                "customer_input": "",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_postal_code": {
+                "customer_input": "10101",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_district": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_country": {
+                "customer_input": "INDIA",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "state_of_residence": {
+                "customer_input": "House Holder",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "mothers_maiden_name": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "employment_status": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "profession_nature_of_business": {
+                "customer_input": "47",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "are_you_work_on_another_platform": {
+                "customer_input": false,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "other_platforms_working_on": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "other_platforms_working_on_other_selected": {
+                "customer_input": true,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "other_platforms_working_on_other_description": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "employer": {
+                "customer_input": "SLIIT Campus",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_building_number": {
+                "customer_input": "SLIIT Uni Road,",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_building_name": {
+                "customer_input": "Kandy Road,",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_street": {
+                "customer_input": "Malabe.",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_town": {
+                "customer_input": "",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_postal_code": {
+                "customer_input": "11221",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_district": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "emp_country": {
+                "customer_input": "SRI LANKA",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "are_you_a_tax_payer": {
+                "customer_input": true,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "tax_file_number": {
+                "customer_input": "TAX00000001",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "pep_declaration": {
+                "customer_input": {
+                    "iam_politically_exposed": true,
+                    "close_relative_politically_exposed": false,
+                    "not_politically_exposed": false,
+                    "pep_person_details": []
+                },
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "source_of_funds": {
+                "customer_input": [],
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "source_of_funds_other": {
+                "customer_input": false,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "source_of_funds_other_description": {
+                "customer_input": "1",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "branch_id": {
+                "customer_input": 1,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": -1
+            },
+            "branch_comment": {
+                "customer_input": "Other",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "branch_comment_other": {
+                "customer_input": "Nearest Bank",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "product_count": 1,
+            "vas_sms_alert": {
+                "customer_input": false,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "vas_online_banking": {
+                "customer_input": true,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "vas_virtual_wallet": {
+                "customer_input": true,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "vas_estatement": {
+                "customer_input": false,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "vas_debit_card": {
+                "customer_input": false,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "vas_debit_card_collection_details": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "vas_debit_card_pin_collection_details": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "vas_debit_card_name": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": null
+            },
+            "vas_debit_card_pos_required": {
+                "customer_input": true,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "vas_debit_card_pos_account": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "video_call_date": "2024-10-31T00:00:00",
+            "video_call_time": "12:00 PM to 12:15 PM",
+            "nic_front_image": "sample_image",
+            "nic_back_image": "sample_image",
+            "selfie_image": "sample_image",
+            "passport_bio_page_image": "sample_image",
+            "passport_alteration_page_image": "sample_image",
+            "passport_entry_stamp_page_image": "sample_image",
+            "visa_image": "sample_image",
+            "signature_image": "http://localhost:44351/images/04108f60-e048-41b6-9715-5854c7c232ef-sign_image.jpg",
+            "address_proof_image": "sample_image",
+            "client_detail_reviewPDF": "",
+            "nic_front_attachment": {
+                "attachment_url": "http://localhost:44351/images/2322064c-8bf1-4004-a6c1-259106192c8f-nic_front_image.jpg",
+                "attachment_type": "image"
+            },
+            "nic_back_attachment": {
+                "attachment_url": "http://localhost:44351/images/97aaca96-521b-4436-9043-3886c2949efb-nic_back_image.jpg",
+                "attachment_type": "image"
+            },
+            "selfie_attachment": {
+                "attachment_url": "http://localhost:44351/images/de713d3c-82dd-4b6e-9997-3f63e9853966-selfie_image.jpg",
+                "attachment_type": "image"
+            },
+            "passport_bio_page_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "passport_alteration_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "passport_entry_stamp_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "visa_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "address_proof_attachment": {
+                "attachment_url": "http://localhost:44351/images/4c79cc9e-d821-424e-9986-8abbc5e8bed4-addr_proof_doc.jpg",
+                "attachment_type": "image"
+            },
+            "dual_citizen_certificate": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "dual_citizen_certificate_back": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "fatca_image": "sample_image",
+            "fatca_attachment": {
+                "attachment_url": "http://localhost:44351/images/5c4e5923-7134-4671-8dc8-a928c3fa30dc-fatca_document_image.jpg",
+                "attachment_type": "image"
+            },
+            "sri_lankan_passport_image": "sample_image",
+            "sri_lankan_passport_attachment": {
+                "attachment_url": "http://localhost:44351/images/4f1e5366-9117-4743-9224-7bf0e562b414-sri_lankan_passport_image.jpg",
+                "attachment_type": "image"
+            },
+            "foreign_passport_image": null,
+            "foreign_passport_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "work_agreement_image": "sample_image",
+            "work_agreement_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "pay_sheet_image": "sample_image",
+            "pay_sheet_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "residential_status_declaration_image": "sample_image",
+            "residential_status_declaration_attachment": {
+                "attachment_url": "",
+                "attachment_type": ""
+            },
+            "date_of_account_funding": "0001-01-01T00:00:00",
+            "current_status": "ASSIGNED-DETAIL-REVIEWER",
+            "hold_application_attachments": null,
+            "hold_application_attachments_call_agent": null,
+            "agent_upload_hold_application_attachments": null,
+            "agent_upload_hold_application_attachments_call_agent": null,
+            "drp_status": false,
+            "face_details": "",
+            "application_type": "Saving",
+            "reference_number": "UAT000001",
+            "customer_location": {
+                "accuracy": 50207.71591534603,
+                "latitude": 7.225344,
+                "longitude": 79.8851072
+            },
+            "age": 24,
+            "duration_to_complete_form": 1868.327055,
+            "customer_industry": null,
+            "customer_occupation": "",
+            "current_t24_action": "",
+            "spoken_language": "",
+            "risk_class": "high",
+            "street_2": {
+                "customer_input": "",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "correspondence_address_street_2": {
+                "customer_input": "",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "nic_face_detection_details": {
+                "face_detected": false,
+                "result": null
+            },
+            "selfie_face_detection_details": {
+                "face_detected": false,
+                "result": null
+            },
+            "nic_selfie_face_verification_details": null,
+            "ocr_address_proof_result": {
+                "bill_type": "",
+                "address": ""
+            },
+            "selected_language": null,
+            "no_of_dependants": {
+                "customer_input": "0",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": "0"
+            },
+            "job_title": {
+                "customer_input": "SLIIT Lecture",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "employment_start_date": {
+                "customer_input": "10/1/2024",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "monthly_income": {
+                "customer_input": "125000",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "are_you_a_fatca_person": {
+                "customer_input": true,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": false
+            },
+            "us_tax_file_number": {
+                "customer_input": "TAXUS0000002",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "daily_cash_withdrawal_limit": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "corresponding_purchase_limit": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "card_collection_branch": {
+                "customer_input": null,
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "preffered_language_for_video_call": {
+                "customer_input": "English",
+                "is_changed_by_call_agent": false,
+                "call_agent_input": ""
+            },
+            "created_at": "2024-10-31T10:10:28.542369",
+            "updated_at": "2024-10-31T11:02:57.273024"
+        },
+        "kycFormStatusHistory": [
+            {
+                "id": 1,
+                "kyc_form_id": 1,
+                "action_taken_agent_id": 0,
+                "assigned_agent_id": 0,
+                "kyc_status": "NEW",
+                "reasons": null,
+                "customer_comments": null,
+                "internal_user_comments": null,
+                "created_at": "2024-10-31T10:10:28.615768",
+                "updated_at": "2024-10-31T10:10:28.615768"
+            },
+            {
+                "id": 2,
+                "kyc_form_id": 1,
+                "action_taken_agent_id": 2,
+                "assigned_agent_id": 2,
+                "kyc_status": "ASSIGNED-DETAIL-REVIEWER",
+                "reasons": null,
+                "customer_comments": null,
+                "internal_user_comments": null,
+                "created_at": "2024-10-31T11:02:57.254118",
+                "updated_at": "2024-10-31T11:02:57.254118"
+            }
+        ],
+        "productSelection": [
+            {
+                "id": 1,
+                "currency_type": {
+                    "customer_input": "LKR",
+                    "is_changed_by_call_agent": false,
+                    "call_agent_input": ""
+                },
+                "account_type": {
+                    "customer_input": "Smart Gen -18\u002B",
+                    "is_changed_by_call_agent": false,
+                    "call_agent_input": ""
+                },
+                "product_id": {
+                    "customer_input": "Savings",
+                    "is_changed_by_call_agent": false,
+                    "call_agent_input": ""
+                },
+                "purpose_of_opening_account": {
+                    "customer_input": [],
+                    "is_changed_by_call_agent": false,
+                    "call_agent_input": null
+                },
+                "anticipated_volume": {
+                    "customer_input": "LESS THAN 100,000 (APP. USD 1,000)",
+                    "is_changed_by_call_agent": false,
+                    "call_agent_input": ""
+                },
+                "initial_deposit_amount": {
+                    "customer_input": null,
+                    "is_changed_by_call_agent": false,
+                    "call_agent_input": ""
+                },
+                "purpose_of_opening_customer_inputs": [],
+                "purpose_of_opening_agent_inputs": [],
+                "purpose_of_opening_other_specify_customer_inputs": "",
+                "purpose_of_opening_other_specify_agent_inputs": "",
+                "account_number": null
+            }
+        ],
+        "videoCallDetail": null,
+        "customerBranch": {
+            "id": 1,
+            "branch_code": "LK0010116",
+            "branch_name": "Agalawatta Branch",
+            "district": "Matale",
+            "address": "No. 31B\nBaduraliya Road\nAgalawatta",
+            "email": "branch.agalawatta@dfccbank.com",
+            "locked": 0,
+            "edited": 0,
+            "disabled": 0,
+            "deleted": 0,
+            "created_at": "2024-10-31T09:36:29.537552",
+            "updated_at": "2024-10-31T09:36:29.537552"
+        },
+        "latestUpdatedUserModel": {
+            "id": 2,
+            "name": "dtt",
+            "email": "udarapaymedia@gmail.com",
+            "contact": "\u002B94763424819",
+            "username": "dtt",
+            "branch_id": 1,
+            "department_id": 2,
+            "role_id": 3,
+            "password": "E10ADC3949BA59ABBE56E057F20F883E",
+            "login_attempts": 0,
+            "visible": 0,
+            "locked": 0,
+            "edited": 0,
+            "disabled": 0,
+            "deleted": 0,
+            "is_initial_password": 0,
+            "last_password_reset_at": null,
+            "account_unlock_at": null,
+            "created_at": "2024-10-31T11:02:10.700469",
+            "updated_at": "2024-10-31T11:02:40.484657",
+            "last_login_at": "0001-01-01T00:00:00"
+        },
+        "agentBranch": null,
+        "internalComment": null,
+        "returnReasonDetail": null,
+        "getAllInternalComments": [],
+        "commentsToCustomer": null,
+        "latestT24Overrides": null,
+        "productErrorDetail": {
+            "product_error": false,
+            "errors": []
+        },
+        "getCommitKycDetails": [],
+        "isKycApplicationVideoCallComplete": false,
+        "isInternalCommentAddedForFcmRejectApplication": false,
+        "isReworkedApplication": false,
+        "customerCIFNumber": "",
+        "drpAttempt": null,
+        "drpStatusList": []
+    }
+}

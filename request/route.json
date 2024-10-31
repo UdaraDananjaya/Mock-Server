@@ -3,6 +3,6 @@
         "/api/test/getapp": "application.json"
     },
     "POST": {
-        "/api/test/getapp": "application.json"
+        "/api/KycApplication/getApplicationById": "application.json"
     }
 }
