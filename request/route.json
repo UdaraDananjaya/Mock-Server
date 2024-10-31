@@ -1,0 +1,8 @@
+{
+    "GET": {
+        "/api/test/getapp": "application.json"
+    },
+    "POST": {
+        "/api/test/getapp": "application.json"
+    }
+}
