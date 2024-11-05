@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+
+# Environment Variables
+.env
+*.local
+
+# Node modules
+node_modules
+
+# Project ignore files
+responses
+routes.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
