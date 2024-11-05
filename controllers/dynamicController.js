@@ -14,6 +14,13 @@ function getResponseFile(filePath) {
 }
 
 exports.handleRequest = (req, res) => {
+
+  // res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // HTTP 1.1
+  // res.setHeader('Pragma', 'no-cache'); // HTTP 1.0
+  // res.setHeader('Expires', '0'); // Proxies
+  // res.setHeader('Access-Control-Allow-Origin', '*');
+
+  // Get the request method and URL
   const method = req.method;
   const url = req.originalUrl;
 
@@ -23,6 +30,7 @@ exports.handleRequest = (req, res) => {
   if (responseFile) {
     const data = getResponseFile(responseFile);
     res.json(data);
+    //res.status(200).json(data);
   } else {
     res.status(404).json({ error: 'Route not found' });
   }
