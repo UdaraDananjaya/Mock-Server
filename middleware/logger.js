@@ -3,7 +3,6 @@ const path = require('path');
 
 module.exports = (req, res, next) => {
   const specificDate = new Date(Date.now());
-  console.log(specificDate);
   const formattedDate = specificDate.toISOString().split('T')[0];
   const logFilePath = path.join(__dirname, '../logs', `${formattedDate}.log`);
   // const logEntry = `${specificDate.toISOString()} - ${req.ip} -  ${req.method} - ${req.originalUrl} - ${JSON.stringify(req.body)} -  [${JSON.stringify(req.headers)}] \n`;
