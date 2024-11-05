@@ -1,0 +1,10 @@
+{
+    "status": "success",
+    "data": {
+      "id": 1,
+      "name": "Sample Application",
+      "description": "This is a sample application response."
+    }
+  }
+  
+  
