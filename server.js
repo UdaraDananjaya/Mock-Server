@@ -10,6 +10,12 @@ const app = express();
 // Enable CORS for all routes (you can customize it if needed)
 app.use(cors());
 
+// app.use(cors({
+//   origin: 'http://example.com', // Allow only example.com
+//   methods: ['GET', 'POST']      // Allow only GET and POST methods
+// }));
+
+
 // Middleware to parse JSON and log requests
 app.use(express.json());
 app.use(logger);
