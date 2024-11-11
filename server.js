@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const config = require('./config/config');
 const dynamicController = require('./controllers/dynamicController');
 const logger = require('./middleware/logger');
